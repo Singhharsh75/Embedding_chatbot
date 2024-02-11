@@ -1,0 +1,81 @@
+
+ .App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    margin: 0;
+    text-align: center; /* Remove default margin for h1 */
+  }
+  
+  .chatbutton {
+    margin-left: auto; /* Push the button to the right */
+  }
+
+  header{
+    justify-content: center;
+  }
+
+  .imageContainer{
+    display: block;
+  }
+  
+  .image-upload {
+    margin-top: 20px;
+  }
+  
+  .file-label {
+    background-color: #61dafb;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .image-container {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .uploaded-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .vision-button {
+    background-color: #61dafb;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .response-container {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .response-text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .chatbutton{
+    display: flex;
+  }

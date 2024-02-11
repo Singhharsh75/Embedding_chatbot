@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fault Detection System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            background-image: url('background-image.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        h2,h3{
+            color: #fff;
+        }
+
+        header {
+            background-color: #F3BE26;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            display: flex;
+            
+        }
+
+        h1{
+            margin-top: 50px;
+        }
+
+        #logo {
+            width: 150px; /* Adjust the width as needed */
+            height: auto;
+            margin-left: 20px;
+            margin-right: 300px;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: fixed;
+            bottom: 100px;
+            right:150px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .gradio-link {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="PwC_Outline_Logo_Black_RGB.png" alt="Company Logo" id="logo">
+        <h1>Electrical Machinery Fault Detection</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to our fault detection system.</h2><h3> Detect and analyze faults in electrical machinery with ease.</h3>
+        <button id="detectFaultBtn">Let's get started</button>
+    </section>
+
+    <script>
+        // Replace "YOUR_GRADIO_LINK" with the actual Gradio link
+        document.getElementById('detectFaultBtn').addEventListener('click', function() {
+            window.open('http://127.0.0.1:7860', '_blank');
+        });
+    </script>
+</body>
+</html>
